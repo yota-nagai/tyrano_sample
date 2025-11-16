@@ -1,4 +1,4 @@
-# 走るか寝るかするメロス
+# Midnight Lab : The Classified Mission
 
 ## 概要
 
