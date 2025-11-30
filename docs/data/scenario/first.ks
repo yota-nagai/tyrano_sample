@@ -199,6 +199,7 @@ PCが置いてある。スリーブ状態だ。[l]
 
 *check_pass_emma
 [commit name="f.input"]
+[cm]
 [if exp="f.input == 'Bella'"]
     [wait time=500] 
     Welcome 
@@ -412,6 +413,7 @@ f.input = ""
 
 *check_PIN_paul
 [commit name="f.input"]
+[cm]
 [if exp="f.input == '1011'"]
     Welcome 
     [wait time=1000] 
@@ -698,6 +700,7 @@ f.input=""
 
 ;;;失敗回数制限を追加した
 *check_answer
+[cm]
 [if exp="tf.num == f.random_generated[f.win_count]%4"]
     [eval exp="f.win_count++"]
     [jump target="*check_clear"]
